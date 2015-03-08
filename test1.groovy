@@ -1,19 +1,21 @@
 import utilities.MyUtilities
-  MyUtilities.addEnterpriseFeature(job {})
+//  MyUtilities.addEnterpriseFeature(job {})
 
-job {
+j1 = job {
     name 'GitJob'
     scm {
         git('git://github.com/JavaPosseRoundup/job-dsl-plugin')
     }
 }
-job {
+
+j2 = job {
     name 'GitJobForFeatureBranch'
     scm {
         git('git://github.com/JavaPosseRoundup/job-dsl-plugin', 'feature-branch')
     }
 }
-job {
+
+j3 = job {
     name 'GitJobXmlConfigured'
     scm {
         git('git://github.com/JavaPosseRoundup/job-dsl-plugin') { node ->
