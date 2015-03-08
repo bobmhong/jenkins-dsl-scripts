@@ -1,4 +1,4 @@
-// import utilities.MyUtilities
+import utilities.MyUtilities
 //  MyUtilities.addEnterpriseFeature(job {})
 
 j1 = job {
