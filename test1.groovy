@@ -1,3 +1,6 @@
+import utilities.MyUtilities
+  MyUtilities.addEnterpriseFeature(job {})
+
 job {
     name 'GitJob'
     scm {
