@@ -8,7 +8,7 @@ j1 = job {
     }
 }
 
-MyUtilities.addEnterpriseFeature(j1)
+myutil = new MyUtilities.addEnterpriseFeature(j1)
 
 j2 = job {
     name 'GitJobForFeatureBranch'
