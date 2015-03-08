@@ -1,5 +1,5 @@
 import utilities.MyUtilities
-//  MyUtilities.addEnterpriseFeature(job {})
+  MyUtilities.addEnterpriseFeature(job {})
 
 j1 = job {
     name 'GitJob'

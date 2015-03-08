@@ -3,7 +3,8 @@ package utilities
   public class MyUtilities {
     def addEnterpriseFeature(Job job) {
         job.with {
-          description('Arbitrary feature')
+		  name('myname')	
+          description('Description')
        }
     }
   }
