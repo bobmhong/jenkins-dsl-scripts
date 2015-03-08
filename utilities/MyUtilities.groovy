@@ -3,8 +3,8 @@ package utilities
   public class MyUtilities {
     def addEnterpriseFeature(Job job) {
         job.with {
-		  name('myname')	
-          description('Description')
+		  
+          description(job.name + ' Description')
        }
     }
   }

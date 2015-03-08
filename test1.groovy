@@ -1,5 +1,5 @@
 import utilities.MyUtilities
-  MyUtilities.addEnterpriseFeature(job {})
+  
 
 j1 = job {
     name 'GitJob'
@@ -7,6 +7,8 @@ j1 = job {
         git('git://github.com/JavaPosseRoundup/job-dsl-plugin')
     }
 }
+
+MyUtilities.addEnterpriseFeature(j1)
 
 j2 = job {
     name 'GitJobForFeatureBranch'
